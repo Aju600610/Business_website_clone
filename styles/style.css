@@ -1,0 +1,455 @@
+
+    
+    /*
+    font-family: 'Inter', sans-serif;
+    font-family: 'Mynerve', cursive;
+    font-family: 'Poppins', sans-serif;
+    */
+
+*{
+    color: white;
+}
+
+p{
+    padding: 0px;
+    margin: 0px;
+}
+    
+    
+
+
+body{
+    background: #1B034E;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 100px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Font  : Poppins 700*/
+
+.header-left-part p{
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+
+/* Font  : Inter 400*/
+
+.navbar a, .b-part1-left-desc-holder p, .we-offer-holder p, .offer-desc p, .benefit-01 p, .b-part3-text p, .bpart4-row1 p, .teammember-desig, .b-part5-inputholder input{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+
+/* Font  : Inter 400*/
+.transparent-btn, .white-btn
+{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+
+/* Font  : Inter 700*/
+
+.offer-number, .teammember-name{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+/*Header starts here*/
+
+.header-container{
+    display:flex;
+    height: 100px;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0px 10%;
+    background: #1B034E;
+}
+
+
+.header-left-part, .header-right-part{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+
+.header-left-part{
+    justify-content: flex-start;
+}
+
+
+
+.header-right-part{
+    padding: 0% 3%;
+    justify-content:space-between;
+}
+
+.navbar{
+    display: flex;
+    flex: 3;
+    justify-content: space-around;
+    padding-right: 15%;
+}
+
+.navbar a{
+   padding: 7px 15px;
+}
+
+
+.navbar a:hover{
+    background-color: white;
+    color: black;
+    transition-delay: 0.5ms;
+    border-radius: 25px;
+    
+}
+
+
+.transparent-btn{
+    
+    border-style: solid;
+    border-color: white;
+    padding: 7px 20px;
+    background-color: transparent;
+    border-radius: 25px;
+    
+    cursor: pointer;
+}
+
+.transparent-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+
+/*Body starts here*/
+
+
+
+
+
+
+
+
+
+.body-container{
+    margin-left: 50px ;
+    margin-right: 50px;
+    
+    
+}
+
+.body-container>div{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    
+
+}
+
+
+
+.b-part1{
+    /*check image css*/
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    /* height: 563px;
+    height: 82.5vh;*/
+    
+    background-image: url('../images/b-part1-main.png');
+    background-size: 95% ;
+    background-repeat: no-repeat;
+    
+    
+    
+}
+
+
+
+.b-part1-left{
+    
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 5%;
+    
+    justify-content: space-between;
+    align-items: center;
+    
+   
+}
+.b-part1-left-title-holder{
+    width: 75%;
+    
+}
+
+.b-part1-left-title-holder p{
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 1.125;
+
+}
+
+.b-part1-left-desc-holder{
+    padding: 5% 0%;
+}
+
+
+.b-part1-left-button-holder{
+    
+    
+    display: flex;
+    flex-direction: row;
+    padding-right: 10px;
+     width: 75%;
+
+   
+}
+.b-part1-left-button-holder div{
+    flex: 1;
+}
+
+
+.b-part1-left-button-holder button{
+    padding-left: 20%;
+    padding-right:20%;
+}
+
+.b-part1-right{
+    display: flex;
+    flex: 1;
+    position: relative;
+    
+}
+
+.bottom-mid-image{
+    display: flex;
+    position: absolute;
+    bottom:4%;
+    left: 0;
+}
+
+.subholder{
+    padding: 0% 4%;
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.subholder>div{
+    padding: 2% 0%;
+}
+
+.b-part2, .b-part4{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.b-part2-r1, .bpart4-row1{
+    display: flex;
+   
+    padding: 2% 0%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.b-part2-r1>div, .bpart4-row1>div{
+    display: flex;
+    padding: 1% 1%;
+    border-bottom: 1px solid white;
+    
+    
+}
+
+
+
+
+.b-part2-r2{
+    display: flex;
+    padding: 2% 0%;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.offer-holder{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+    
+
+}
+
+.offer-holder p{
+    text-align: center;
+}
+
+.offer-holder> div{
+    padding-bottom: 5%;
+}
+
+.offer-number{
+    font-size: 22px;
+}
+
+.b-part3{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+
+}
+
+
+
+.b-part3-row1, .b-part3-row2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+}
+.b-part3-r1-left{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 2% 2%;
+}
+
+
+.b-part3-business-ideas p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 1.125;
+
+}
+
+
+.white-btn{
+    border-style: solid;
+    border-color: white;
+    border-radius: 25px;
+    background-color: white;
+    cursor: pointer;
+    padding: 7px 20px;
+    color: black;
+
+}
+
+.b-part3-r1-right{
+    display: flex;
+    flex:1;
+    margin: 2% 2%;
+    
+
+}
+
+.b-part3-r1-right img{
+    object-fit:cover ;
+}
+
+
+
+
+.white-btn:hover{
+    background-color: transparent;
+    color: white;
+    
+}
+
+
+.bpart4-row2{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+.teammember-name{
+    padding: 3% 0%;
+}
+
+
+.b-part5{
+    background: #38265F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    
+    
+
+
+}
+
+.b-part5>div{
+    padding: 2% 0%;
+
+}
+
+.b-part5-title{
+   font-family: 'Inter', sans-serif;
+   font-size: 22px;
+   font-weight: 600px;
+}
+
+.b-part5-inputholder{
+   width: 60%;
+   
+   
+
+}
+
+.b-part5-inputholder input{
+    width: 95%;
+    background: transparent;
+    border: 1px solid white;
+    padding: 15px 5px;
+    border-radius: 15px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
